@@ -79,7 +79,8 @@
 #write {
   position: static;
   width: 90%;
-  max-width: 900px;
+  /* max-width: 900px; */
+  max-width: 75%;
   line-height: 1.6;
   padding: 36px 0 70px;
 }
@@ -333,10 +334,11 @@ blockquote {
   background-color: var(--quote-bg-color);
   border-radius: 6px;
   line-height: 1;
+  width: 90%;
 }
 blockquote p {
   color: var(--quote-text-color);
-  margin: 0 ;
+  margin: 0;
 }
 blockquote::before {
   content: '';
@@ -551,7 +553,6 @@ table tr th:last-of-type, table tr td:last-of-type {
   text-decoration: none;
 }
 
-
 /* notification */
 #md-notification:before {
   top: 18px;
@@ -572,7 +573,6 @@ table tr th:last-of-type, table tr td:last-of-type {
   background: var(--white-color);
 }
 
-
 /* sidebar */
 .sidebar-menu {
   color: var(--siderbar-dropdown-menu-text-color);
@@ -592,10 +592,11 @@ table tr th:last-of-type, table tr td:last-of-type {
   cursor: pointer;
 }
 #file-library-tree .file-node-expanded>.file-node-content>.fa-folder:before {
-  content: '\f07c';
+  content: '\f115';
 }
 #file-library-tree .fa-file-text-o:before {
-  content: '\f1ce'
+  /* FontAwesome */
+  content: '\f0f6'
 }
 
 .file-tree-node.active>.file-node-background {
